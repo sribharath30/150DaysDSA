@@ -16,5 +16,3 @@ function findMaxAverage(nums: number[], k: number): number {
 }
 
 console.log(findMaxAverage([1, 12, -5, -6, 50, 3], 4));
-// console.log(findMaxAverage([5], 1));
-// console.log(findMaxAverage([0,4,0,3,2],1));
