@@ -21,6 +21,12 @@
 
 ### Linked List
 
+### Sorting Algorithms
+
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+
 #### Additional Algorithms
 - **Kadane's Algorithm** (Maximum Subarray Sum)
 - **Dutch National Flag (DNF) Algorithm**
