@@ -2,7 +2,7 @@ function replace(input: string): string[]{
    const value =  "__";
    let start = 0;
    let end = value.length;
-   const newArray = []
+   const newArray: string[] = []
     while(end <= input.length){
         const startString = input.substring(0,start);
         const midSubstring = input.substring(start,end);

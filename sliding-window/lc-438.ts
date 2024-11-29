@@ -1,5 +1,5 @@
 function findAnagrams(s: string, p: string): number[] {
-    const result = [];
+    const result: number[] = [];
     const pCount = new Array(26).fill(0);
     const sCount = new Array(26).fill(0);
     const aCharCode = 'a'.charCodeAt(0);
