@@ -6,7 +6,6 @@ function generateParenthesis(
   result: string[] = []
 ): string[] {
   if (current.length === 2 * n) {
-    console.log(current);
     result.push(current);
     return result;
   }
