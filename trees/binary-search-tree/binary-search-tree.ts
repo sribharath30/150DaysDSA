@@ -25,42 +25,41 @@ class BST {
       if (node.value < root.value) {
         if (!root.left) {
           root.left = node;
-        }else{
-            this.insertRecursively(root.left, node);
+        } else {
+          this.insertRecursively(root.left, node);
         }
       }
       if (node.value > root.value) {
         if (!root.right) {
           root.right = node;
-        }
-        else{
-            this.insertRecursively(root.right, node);
+        } else {
+          this.insertRecursively(root.right, node);
         }
       }
     }
   }
 
-  inorder(root: TreeNode | null ){
-    if(root == null){
-        return;
+  inorder(root: TreeNode | null) {
+    if (root == null) {
+      return;
     }
     this.inorder(root.left);
     console.log(root.value);
     this.inorder(root.right);
   }
 
-  preorder(root: TreeNode | null ){
-    if(root == null){
-        return;
+  preorder(root: TreeNode | null) {
+    if (root == null) {
+      return;
     }
     console.log(root.value);
     this.preorder(root.left);
     this.preorder(root.right);
   }
-  
-  postorder(root: TreeNode | null ){
-    if(root == null){
-        return;
+
+  postorder(root: TreeNode | null) {
+    if (root == null) {
+      return;
     }
     this.postorder(root.left);
     this.postorder(root.right);
@@ -68,6 +67,19 @@ class BST {
   }
   getRoot(): TreeNode | null {
     return this.root;
+  }
+
+  deleteNode(root: TreeNode, value: number): TreeNode | null {
+    if (root == null) {
+      return root;
+    }
+    if (root.value < value && root.right) {
+      this.deleteNode(root.right, value);
+    } else if (root.value > value && root.left) {
+      this.deleteNode(root.left, value);
+    } else {
+    }
+    return null;
   }
 }
 
@@ -80,9 +92,9 @@ bst.insert(10);
 bst.insert(30);
 bst.insert(150);
 bst.insert(300);
-console.log(JSON.stringify(bst.getRoot(), null, 2)); 
+console.log(JSON.stringify(bst.getRoot(), null, 2));
 bst.inorder(bst.getRoot());
-console.log('pre')
+console.log("pre");
 bst.preorder(bst.getRoot());
-console.log('post')
+console.log("post");
 bst.postorder(bst.getRoot());
