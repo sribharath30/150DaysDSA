@@ -6,12 +6,12 @@
    - Binary Tree Inorder Traversal ✅
    - Binary Tree Preorder Traversal ✅
    - Binary Tree Postorder Traversal ✅
-   - Symmetric Tree
+   - Same Tree✅
 
 2. **Day 2:**
+   - Symmetric Tree
    - Invert Binary Tree
    - Path Sum
-   - Same Tree
    - Lowest Common Ancestor of a Binary Tree
 
 3. **Day 3:**

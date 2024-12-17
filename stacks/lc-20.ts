@@ -1,26 +1,20 @@
 function isValid(s: string): boolean {
-    let charMap: Record<string, string> = {
-        '(': ')',
-        '{': '}',
-        '[': ']'
-    }
     let stack: string[] = [];
+    const map = {
+        ')': '(',
+        '}': '{',
+        ']': '['
+    }
+
     for (let char of s) {
         if (char == '(' || char == '{' || char == '[') {
-            stack.push(char)
+            stack.push(char);
         } else {
-            if (stack.length == 0) {
-                return false
+            const popped_value = stack.pop();
+            if (map[char] != popped_value) {
+                return false;
             }
-            let returnCharacter = stack[stack.length - 1] as string;
-            let mappedValue = charMap[returnCharacter]
-            if (mappedValue !== char) {
-                return false
-            }
-            stack.pop();
         }
     }
-    return stack.length === 0;
-}
-
-console.log(isValid('(]'))
+    return stack.length === 0
+};
