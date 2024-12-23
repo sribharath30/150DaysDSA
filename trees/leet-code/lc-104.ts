@@ -11,7 +11,7 @@ function maxDepth(
   } else {
     let leftDepth = maxDepth(root?.left, maxD, currD + 1);
     let rightDepth = maxDepth(root?.right, maxD, currD + 1);
-    return maxD;
+    return Math.max(leftDepth,rightDepth);
   }
 }
 

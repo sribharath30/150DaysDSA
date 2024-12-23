@@ -9,10 +9,10 @@
    - Same Tree✅
 
 2. **Day 2:**
-   - Symmetric Tree
-   - Invert Binary Tree
-   - Path Sum
-   - Lowest Common Ancestor of a Binary Tree
+   - Symmetric Tree✅
+   - Invert Binary Tree✅
+   - Path Sum✅
+   - Lowest Common Ancestor of a Binary Tree❌
 
 3. **Day 3:**
    - Balanced Binary Tree
