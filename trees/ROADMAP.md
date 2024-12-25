@@ -20,39 +20,32 @@
    - Subtree of Another Tree🚀✅
    - Binary Tree Level Order Traversal🚀✅
 
-**Tomorrows Problems**
-   - Validate Binary Search Tree🚀   
-   - Construct Binary Tree from Preorder and Inorder Traversal🚀
-   - Kth Smallest Element in a BST🚀 
+4. **Day 4:**
+   - Validate Binary Search Tree🚀✅  
+   - Construct Binary Tree from Preorder and Inorder Traversal🚀✅
+   - Kth Smallest Element in a BST🚀✅
 
 ### **Week 2: Medium Problems**
 
-1. **Day 4:**
-   - Maximum Depth of N-ary Tree
+1. **Day 5:**
    - Invert Binary Tree II🚀  
-
-2. **Day 5:**
-   - Serialize and Deserialize Binary Tree🚀
-   - Binary Tree Maximum Path Sum🚀
-   - Binary Tree Longest Consecutive Sequence
-
-3. **Day 6:**
+   - Maximum Depth of N-ary Tree
    - Construct Binary Tree from Inorder and Postorder Traversal
    - Convert Sorted Array to Binary Search Tree
-   - Flatten Binary Tree to Linked List
 
+2. **Day 6:**
+   - Recover Binary Search Tree
+   - Binary Tree Longest Consecutive Sequence II
+   - Binary Tree Longest Consecutive Sequence
+
+3. **Day 7:**
+   - Binary Tree Maximum Average Subtree
+   - Binary Tree Right Side View
+   - Flatten Binary Tree to Linked List
 ---
 
 ### **Week 3: Advanced Problems**
 
-1. **Day 7:**
-   - Binary Tree Maximum Average Subtree
-   - Binary Tree Cameras
-
-2. **Day 8:**
-   - Binary Tree Right Side View
-   - Recover Binary Search Tree 
-
-3. **Day 9:**
-   - Binary Tree Longest Consecutive Sequence II
-   - Binary Tree Maximum Average Subtree  
+1. **Day 8:**
+   - Serialize and Deserialize Binary Tree🚀🤯
+   - Binary Tree Maximum Path Sum🚀🤯

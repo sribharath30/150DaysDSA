@@ -36,5 +36,28 @@ export function createBinaryTree(arr: (number | null)[]): TreeNode | null {
     return root;
 }
 
+export function createBinarySearchTree(arr: (number | null)[]): TreeNode | null {
+    if (arr.length === 0) return null;
+
+    // Filter out null values to create a sorted array of numbers
+    const filteredArray = arr.filter((val): val is number => val !== null).sort((a, b) => a - b);
+
+    function constructBST(start: number, end: number): TreeNode | null {
+        if (start > end) return null;
+
+        // Middle element as root
+        const mid = Math.floor((start + end) / 2);
+        const node = new TreeNode(filteredArray[mid]);
+
+        // Recursively build left and right subtrees
+        node.left = constructBST(start, mid - 1);
+        node.right = constructBST(mid + 1, end);
+
+        return node;
+    }
+
+    return constructBST(0, filteredArray.length - 1);
+}
+
 // // Example usage
 // let root = createBinaryTree([3, 9, 20, null, null, 15, 7]);
