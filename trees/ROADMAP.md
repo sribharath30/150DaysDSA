@@ -42,10 +42,7 @@
    - Binary Tree Maximum Average Subtree
    - Binary Tree Right Side View
    - Flatten Binary Tree to Linked List
----
 
-### **Week 3: Advanced Problems**
-
-1. **Day 8:**
+4. **Day 8:**
    - Serialize and Deserialize Binary Tree🚀🤯
    - Binary Tree Maximum Path Sum🚀🤯
