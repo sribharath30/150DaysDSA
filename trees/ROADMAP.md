@@ -28,10 +28,10 @@
 ### **Week 2: Medium Problems**
 
 1. **Day 5:**
-   - Invert Binary Tree II🚀  
-   - Maximum Depth of N-ary Tree
-   - Construct Binary Tree from Inorder and Postorder Traversal
-   - Convert Sorted Array to Binary Search Tree
+   - Invert Binary Tree II🚀✅  
+   - Convert Sorted Array to Binary Search Tree✅
+   - Maximum Depth of N-ary Tree✅
+   - Construct Binary Tree from Inorder and Postorder Traversal✅
 
 2. **Day 6:**
    - Recover Binary Search Tree
