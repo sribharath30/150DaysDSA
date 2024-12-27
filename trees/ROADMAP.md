@@ -34,11 +34,11 @@
    - Construct Binary Tree from Inorder and Postorder Traversal✅
 
 2. **Day 6:**
-   - Recover Binary Search Tree
-   - Binary Tree Longest Consecutive Sequence II
-   - Binary Tree Longest Consecutive Sequence
+   - Recover Binary Search Tree✅
+   - Binary Tree Longest Consecutive Sequence✅
 
 3. **Day 7:**
+   - Binary Tree Longest Consecutive Sequence II
    - Binary Tree Maximum Average Subtree
    - Binary Tree Right Side View
    - Flatten Binary Tree to Linked List
