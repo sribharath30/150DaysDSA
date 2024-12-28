@@ -38,10 +38,12 @@
    - Binary Tree Longest Consecutive Sequence✅
 
 3. **Day 7:**
+   - Flatten Binary Tree to Linked List✅
+   - Binary Tree Maximum Average Subtree✅
+
+4. **Day 8:**
    - Binary Tree Longest Consecutive Sequence II
-   - Binary Tree Maximum Average Subtree
    - Binary Tree Right Side View
-   - Flatten Binary Tree to Linked List
 
 4. **Day 8:**
    - Serialize and Deserialize Binary Tree🚀🤯
