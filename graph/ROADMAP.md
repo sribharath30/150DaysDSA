@@ -2,7 +2,7 @@
 
 #### **Day 1**  
 1. Number of Islands - BFS
-2. Number of Islands - DFS
+2. Number of Islands - DFS✅
 
 #### **Day 2**  
 1. Word Ladder  
