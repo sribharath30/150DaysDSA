@@ -1,33 +1,54 @@
 ### 8-Day Roadmap for Problems
 
+**Legend**  
+🚀 - NeetCode 75  
+🚀🚀 - NeetCode 150  
+
 #### **Day 1**  
 1. Number of Islands - BFS
-2. Number of Islands - DFS✅
+2. Number of Islands - DFS🚀✅
 
 #### **Day 2**  
-1. Word Ladder  
-2. Word Search  
+1. Clone Graph 🚀✅
+2. Pacific Atlantic Water Flow 🚀❌
+3. Flood fill❌
 
 #### **Day 3**  
-1. Shortest Path in Binary Matrix  
-2. Symmetric Tree  
+1. Number of Connected Components in an Undirected Graph 🚀
+2. Course Schedule 🚀 
+ 
 
 #### **Day 4**  
-1. Clone Graph  
-2. Path Sum  
+1. Graph Valid tree🚀
+2.  Max Area Of Island 🚀🚀  
 
 #### **Day 5**  
-1. Surrounded Regions  
-2. Binary Tree Level Order Traversal  
+
+1. Walls And Gates 🚀🚀 
+2. Network Delay Time 🚀🚀  
 
 #### **Day 6**  
-1. Is Graph Bipartite?  
-2. Pacific Atlantic Water Flow  
+
+1. Rotting Oranges 🚀🚀  
+2. Course Schedule II 🚀🚀 
 
 #### **Day 7**  
-1. Number of Connected Components in an Undirected Graph  
-2. Course Schedule  
+
+1. Redundant Connection 🚀🚀  
+2. Min Cost To Connect All Points 🚀🚀  
+3. Cheapest Flight Within K Stops 🚀🚀
 
 #### **Day 8**  
-1. Network Delay Time  
-2. Review all problems and revisit challenging ones  
+
+1. Word Ladder🤯🚀🚀 
+2. Alien Dictionary🤯🚀
+
+#### **Day 9**
+1. Surrounded Regions
+2. Is Graph Bipartite? 
+3. Shortest Path in Binary Matrix
+
+#### **Day 10** 
+
+1. Reconstruct Itinerary 🤯🚀🚀  
+2.  Swim In Rising Water 🤯🚀🚀 
