@@ -1,4 +1,35 @@
 function numIslands(grid: string[][]): number {
+    let islandCount = 0;
+    const numRows = grid.length;
+    const numCols = grid[0].length;
+
+    const dfs = (row: number, col: number) => {
+        if (row < 0 || col < 0 || row >= numRows || col >= numCols || grid[row][col] !== '1') {
+            return;
+        }
+
+        grid[row][col] = '0';
+
+        dfs(row - 1, col); // Up
+        dfs(row + 1, col); // Down
+        dfs(row, col - 1); // Left
+        dfs(row, col + 1); // Right
+    };
+
+    for (let i = 0; i < numRows; i++) {
+        for (let j = 0; j < numCols; j++) {
+            if (grid[i][j] === '1') {
+                islandCount++;
+                dfs(i, j);
+            }
+        }
+    }
+
+    return islandCount;
+}
+
+/* Brute force way
+function numIslands(grid: string[][]): number {
     let visitedSet:Set<string> = new Set();
     let columnLength = grid.length;
     let isLandCount = 0;
@@ -52,3 +83,4 @@ function numIslands(grid: string[][]): number {
 
     return isLandCount;
 }
+**/
