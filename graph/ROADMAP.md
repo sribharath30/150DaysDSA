@@ -12,7 +12,7 @@
 1. Clone Graph 🚀✅
 2. Flood fill✅
 3. Pacific Atlantic Water Flow 🚀❌
-4. Number of provinces❌
+4. Number of provinces✅❌
 
 #### **Day 3**  
 1. Number of Connected Components in an Undirected Graph 🚀
@@ -21,7 +21,7 @@
 
 #### **Day 4**  
 1. Graph Valid tree🚀
-2.  Max Area Of Island 🚀🚀  
+2. Max Area Of Island✅ 🚀🚀  
 
 #### **Day 5**  
 
