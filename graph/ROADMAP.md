@@ -5,23 +5,24 @@
 🚀🚀 - NeetCode 150  
 
 #### **Day 1**  
-1. Number of Islands - BFS
+1. Number of Islands - BFS✅
 2. Number of Islands - DFS🚀✅
 
 #### **Day 2**  
 1. Clone Graph 🚀✅
 2. Flood fill✅
-3. Pacific Atlantic Water Flow 🚀❌
+3. Find if Path Exists in Graph✅
 4. Number of provinces✅❌
 
 #### **Day 3**  
-1. Number of Connected Components in an Undirected Graph 🚀
-2. Course Schedule 🚀 
+1. Number of Connected Components in an Undirected Graph✅🚀
+2. Max Area Of Island✅ 🚀🚀 
+3. Graph Valid tree✅🚀
  
 
 #### **Day 4**  
-1. Graph Valid tree🚀
-2. Max Area Of Island✅ 🚀🚀  
+1. Pacific Atlantic Water Flow 🚀❌
+2. Course Schedule 🚀  
 
 #### **Day 5**  
 
